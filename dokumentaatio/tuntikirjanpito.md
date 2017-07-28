@@ -1,5 +1,5 @@
 ### Tuntikirjanpito
-Päivä | Tunnit | Kuvaus
---------------- | ----- | ------
-24.07.2017 | 2,5h | Aloitusluento ja idean hahmottelua
-28.07.2017 | 4h | Ensimmäinen harjoitus
+Päivä | Tunnit | Kuvaus | Kumulatiivinen
+--------------- | ----- | ------ | ------
+24.07.2017 | 2,5h | Aloitusluento ja idean hahmottelua | 2,5h
+28.07.2017 | 5h | Ensimmäinen harjoitus | 7,5h
