@@ -7,7 +7,7 @@ Personal Kanban eli omaan käyttöön simppeli tehtävien hallintasovellus. Teht
 - ohjelmointi
 - dokumentointi
 - testaus
-- [Tehtävien seuranta](/projects/1)
+- [Tehtävien seuranta](../../projects/1)
 - [Ajankäytön seuranta](/dokumentaatio/tuntikirjanpito.md)
 
 ## Kansiorakenne:
