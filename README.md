@@ -9,15 +9,15 @@ Itsenäinen 6 viikon projekti itsevalitun aiheen mukaisesti
 
 Kansiorakenne:
 - Harjoitustyösi juurikansio (Repositoriokansio)
-- README.md
-- ohjelmasinimitähän/ (Netbeansin projektihakemisto)
-- javadoc/ (Generoitu dokumentaatio, vaaditaan vasta loppupalautuksessa)
-- dokumentaatio/
-- pit-raportti/
-- checkstyle-raportti/
-- aiheenKuvausJaRakenne.md
-- testausdokumentti.md
-- käyttöohjeet.md
-- tuntikirjanpito.md
-- luokka- ja sekvenssikaaviot.png tai .jpg
+    - README.md
+    - [ohjelmasinimitähän/ (Netbeansin projektihakemisto)](/SimpleTaskManager)
+    - javadoc/ (Generoitu dokumentaatio, vaaditaan vasta loppupalautuksessa)
+    - dokumentaatio/
+        - pit-raportti/
+        - checkstyle-raportti/
+        - [aiheenKuvausJaRakenne.md](/dokumentaatio/aiheenKuvausJaRakenne.md)
+        - testausdokumentti.md
+        - käyttöohjeet.md
+        - [tuntikirjanpito.md](/dokumentaatio/tuntikirjanpito.md)
+        - luokka- ja sekvenssikaaviot.png tai .jpg
 
