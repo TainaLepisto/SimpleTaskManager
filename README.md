@@ -16,7 +16,7 @@ Personal Kanban eli omaan käyttöön simppeli tehtävien hallintasovellus. Teht
     - [ohjelmasinimitähän/ (Netbeansin projektihakemisto)](/SimpleTaskManager)
     - javadoc/ (Generoitu dokumentaatio, vaaditaan vasta loppupalautuksessa)
     - ### dokumentaatio/
-        - pit-raportti/
+        - [pit-raportti](https://htmlpreview.github.io/?https://github.com/TainaLepisto/SimpleTaskManager/blob/master/dokumentaatio/pit/index.html)
         - checkstyle-raportti/
         - [aiheenKuvausJaRakenne.md](/dokumentaatio/aiheenKuvausJaRakenne.md)
         - testausdokumentti.md
