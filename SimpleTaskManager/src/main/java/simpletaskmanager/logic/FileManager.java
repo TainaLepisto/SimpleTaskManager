@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package simpletaskmanager.logiikka;
+package simpletaskmanager.logic;
 
 /**
  *
  * @author taina
  */
-public class TaskGroup {
+public class FileManager {
     
 }

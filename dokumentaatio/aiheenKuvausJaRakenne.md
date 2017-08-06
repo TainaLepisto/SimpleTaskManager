@@ -1,6 +1,8 @@
 **Aihe:**
 >Yksinkertainen tehtävien hallintajärjestelmä. Ensin luodaan kokonaisuus ja kokonaisuuden alle tehtävät. Tehtävillä on tila (odottaa, tekeillä, tehty). Kokonaisuuden voi monistaa uudeksi, jolloin kaikki tehtävät palaavat odottaa tilaan. 
 
+![Luokkakaavio](https://yuml.me/c34372f4g)
+
 **Käyttäjät:**
 >Jokaisen oma personal kanban. 
 
