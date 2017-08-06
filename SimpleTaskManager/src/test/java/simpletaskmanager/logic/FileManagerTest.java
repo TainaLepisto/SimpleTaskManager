@@ -1,4 +1,4 @@
-package simpletaskmanager.domain;
+package simpletaskmanager.logic;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -17,9 +17,9 @@ import static org.junit.Assert.*;
  *
  * @author taina
  */
-public class TaskTest {
+public class FileManagerTest {
     
-    public TaskTest() {
+    public FileManagerTest() {
     }
     
     @BeforeClass
@@ -38,15 +38,10 @@ public class TaskTest {
     public void tearDown() {
     }
 
+
     @Test
-    public void createNewTask() {
-    
-        Task newTask = new Task("Otsikko", Priority.Major);
-        assertEquals("Otsikko", newTask.getHeader());
-        assertEquals(Priority.Major, newTask.getPrio());
-        assertEquals(WorkFlow.Todo, newTask.getStatus());
-        
+    public void hello() {
+
     }
-    
-    
+
 }

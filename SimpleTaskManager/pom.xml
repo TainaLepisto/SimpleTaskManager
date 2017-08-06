@@ -38,12 +38,14 @@
                 
                 <configuration>
                     <targetClasses>
-                        <param>simpletaskmanager.logiikka.*</param>
+                        <param>simpletaskmanager.logic.*</param>
                         <param>simpletaskmanager.domain.*</param>
+                        <param>simpletaskmanager.statistics.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>simpletaskmanager.logiikka.*</param>
+                        <param>simpletaskmanager.logic.*</param>
                         <param>simpletaskmanager.domain.*</param>
+                        <param>simpletaskmanager.statistics.*</param>
                     </targetTests>
                 </configuration>
                 

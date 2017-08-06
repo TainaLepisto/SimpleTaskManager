@@ -5,7 +5,6 @@
  */
 package simpletaskmanager.domain;
 
-import simpletaskmanager.domain.Task;
 import java.util.ArrayList;
 import java.util.List;
 

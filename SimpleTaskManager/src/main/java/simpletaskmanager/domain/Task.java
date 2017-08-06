@@ -12,12 +12,32 @@ package simpletaskmanager.domain;
 public class Task {
     
     private String header; 
-    private Priority prio ; 
-    private String dueDate ; // pitää selvitellä miten päivän käyttäminen oikein sujuu parhaiten
+    private Priority prio; 
+    private String dueDate; // pitää selvitellä miten päivän käyttäminen oikein sujuu parhaiten
+    private WorkFlow status; 
     
     public Task (String title, Priority prio) {
         this.header=title;
         this.prio=prio;
+        this.status=WorkFlow.Todo;
+    }
+
+    
+    /* getterit ja setterit */
+    public String getDueDate() {
+        return dueDate;
+    }
+
+    public WorkFlow getStatus() {
+        return status;
+    }
+
+    public void setDueDate(String dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    public void setStatus(WorkFlow status) {
+        this.status = status;
     }
 
     public String getHeader() {
