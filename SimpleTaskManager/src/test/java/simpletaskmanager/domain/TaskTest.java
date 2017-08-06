@@ -39,13 +39,32 @@ public class TaskTest {
     }
 
     @Test
-    public void createNewTask() {
-    
+    public void createNewTaskWorks() {
         Task newTask = new Task("Otsikko", Priority.Major);
         assertEquals("Otsikko", newTask.getHeader());
         assertEquals(Priority.Major, newTask.getPrio());
-        assertEquals(WorkFlow.Todo, newTask.getStatus());
-        
+        assertEquals(WorkFlow.Todo, newTask.getStatus()); 
+    }
+    
+    @Test
+    public void priorityIsAlsoANumber() {
+        Task newTask = new Task("Otsikko", Priority.Major);
+        assertEquals(1, newTask.getPrio().getArvo()); 
+    }
+    
+    @Test
+    public void statusChangeWorks() {
+        Task task1 = new Task("Otsikko", Priority.Major);
+        task1.setStatus(WorkFlow.Done);
+        assertEquals(WorkFlow.Done, task1.getStatus());
+    }
+    
+    @Test
+    public void cloneWorks() {
+        Task task1 = new Task("Otsikko", Priority.Major);
+        task1.setStatus(WorkFlow.Done);
+        Task task2 = task1.cloneTask();
+        assertEquals(WorkFlow.Todo, task2.getStatus());
     }
     
     

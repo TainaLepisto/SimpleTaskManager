@@ -14,19 +14,31 @@ import java.util.List;
  */
 public class TaskGroup {
     
+    private String header;
     private List<Task> taskList;
     
-    public TaskGroup() {
+    public TaskGroup(String title) {
+        this.header = title;
         taskList = new ArrayList<>();
     }
     
     public boolean addNewTask(Task newTask) {
-        // TODO: tarkastus, ettei samanlaista jo ole
+        if (taskList.contains(newTask)) {
+            return false;
+        }
         taskList.add(newTask);
         return true;
     }
+
+    public String getHeader() {
+        return header;
+    }
     
     
+
+    public List<Task> getTaskList() {
+        return taskList;
+    }
     
     
     
