@@ -12,12 +12,12 @@ import java.util.Objects;
  * @author taina
  */
 public class Task {
-    
-    private String header; 
-    private Priority prio; 
+
+    private String header;
+    private Priority prio;
     private String dueDate; // pitää selvitellä miten päivän käyttäminen oikein sujuu parhaiten
-    private WorkFlow status; 
-    
+    private WorkFlow status;
+
     public Task(String title, Priority prio) {
         this.header = title;
         this.prio = prio;
@@ -27,7 +27,7 @@ public class Task {
     public Task cloneTask() {
         return new Task(this.header, this.prio);
     }
-    
+
     /* getterit ja setterit */
     public String getDueDate() {
         return dueDate;
@@ -92,13 +92,7 @@ public class Task {
         if (this.prio != other.prio) {
             return false;
         }
-        if (this.status != other.status) {
-            return false;
-        }
-        return true;
+        return this.status == other.status;
     }
-    
-    
-    
-    
+
 }

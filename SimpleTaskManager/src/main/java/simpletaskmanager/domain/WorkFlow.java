@@ -11,6 +11,7 @@ package simpletaskmanager.domain;
  * 
  * 
  * tätä voisi jatkokehittää niin, että käyttäjä voisi määritellä eri tilat
+ *  -> jätetään seuraavaan vaiheeseen
  * 
  */
 public enum WorkFlow {
@@ -22,7 +23,7 @@ public enum WorkFlow {
 
     private String koodi;        
 
-    private WorkFlow(String koodi) { 
+    WorkFlow(String koodi) {
         this.koodi = koodi;
     }
     

@@ -7,21 +7,35 @@ package simpletaskmanager.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  *
  * @author taina
  */
 public class TaskGroup {
-    
+
+    private String uniqueID;
     private String header;
+    private Boolean isTemplate;
     private List<Task> taskList;
-    
+
     public TaskGroup(String title) {
         this.header = title;
         taskList = new ArrayList<>();
+        isTemplate = false;
+        uniqueID = UUID.randomUUID().toString();
     }
-    
+
+    public TaskGroup(List<String> taskGroupContains) {
+        /**
+         * aineistossa on * 1. rivi uniqueID; header; isTemplate 2. rivi .. n.
+         * rivi on TASK tietoja header; prio; dueDate; status;
+         * *
+         */
+
+    }
+
     public boolean addNewTask(Task newTask) {
         if (taskList.contains(newTask)) {
             return false;
@@ -33,14 +47,24 @@ public class TaskGroup {
     public String getHeader() {
         return header;
     }
-    
-    
+
+    public Boolean getTemplate() {
+        return isTemplate;
+    }
 
     public List<Task> getTaskList() {
         return taskList;
     }
-    
-    
-    
-    
+
+    public void setHeader(String header) {
+        this.header = header;
+    }
+
+    public void setTaskList(List<Task> taskList) {
+        this.taskList = taskList;
+    }
+
+    public void setTemplate(Boolean template) {
+        isTemplate = template;
+    }
 }

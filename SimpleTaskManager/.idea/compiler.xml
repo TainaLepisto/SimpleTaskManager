@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SimpleTaskManager" />
+        <module name="SimpleTaskManager (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SimpleTaskManager" target="1.8" />
+      <module name="SimpleTaskManager (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

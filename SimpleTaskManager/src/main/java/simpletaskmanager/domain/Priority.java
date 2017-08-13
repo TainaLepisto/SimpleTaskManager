@@ -20,7 +20,7 @@ public enum Priority {
 
     private String koodi;        
 
-    private Priority(String koodi) { 
+    Priority(String koodi) {
         this.koodi = koodi;
     }
     
