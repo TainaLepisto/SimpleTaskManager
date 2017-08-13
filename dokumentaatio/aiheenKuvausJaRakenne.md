@@ -1,8 +1,9 @@
 **Aihe:**
->Yksinkertainen tehtävien hallintajärjestelmä. Ensin luodaan kokonaisuus ja kokonaisuuden alle tehtävät. Tehtävillä on tila (odottaa, tekeillä, tehty). Kokonaisuuden voi monistaa uudeksi, jolloin kaikki tehtävät palaavat odottaa tilaan. 
+>Yksinkertainen tehtävien hallintajärjestelmä. Ensin luodaan kokonaisuus ja kokonaisuuden alle tehtävät. Tehtävillä on tila (odottaa, tekeillä, tehty). Kokonaisuuden voi merkitä templateksi, jolloin sen voi monistaa ja kaikki siihen liityvät tehtävät palaavat odottaa tilaan. 
+
 
 **Luokkakaavio:**
->![Luokkakaavio](https://yuml.me/c34372f4)
+>![Luokkakaavio](http://yuml.me/630f8e5a)
 
 **Käyttäjät:**
 >Jokaisen oma personal kanban. 

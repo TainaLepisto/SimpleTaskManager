@@ -24,5 +24,5 @@ Personal Kanban eli omaan käyttöön simppeli tehtävien hallintasovellus. Teht
         - [tuntikirjanpito.md](/dokumentaatio/tuntikirjanpito.md)
         - luokka- ja sekvenssikaaviot.png tai .jpg 
 		[ekatesti](http://yuml.me/edit/4d2ea61c)
-		[tokatesti](https://yuml.me/edit/4d2ea61c)
+		[tokatesti](http://yuml.me/edit/630f8e5a)
 
