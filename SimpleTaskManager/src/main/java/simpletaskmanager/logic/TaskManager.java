@@ -5,30 +5,37 @@
  */
 package simpletaskmanager.logic;
 
+import java.util.ArrayList;
 import java.util.List;
+
 import simpletaskmanager.domain.*;
 
 /**
- *
  * @author taina
  */
 public class TaskManager {
 
     private List<TaskGroup> taskGroupLists;
-    FileManager fm = new FileManager();
+    FileManager fm;
 
     public TaskManager() {
+        this.taskGroupLists = new ArrayList<>();
+        this.fm = new FileManager();
+    }
+
+    public void readFile() {
         // tässä tiedostossa on ryhmien ID tunnukset - jokainen omalla rivillä
-        fm.readFile("file:resources/files/SimpleTaskManager.txt");
+        fm.readFile("/files/SimpleTaskManager.txt");
         List<String> allTaskGroups = fm.getRows();
 
         // luodaan jokaisesta ryhmästä oma olio
-        for (int i = 0; i < allTaskGroups.size(); i++) {
+        for (String allTaskGroup : allTaskGroups) {
             // jokainen ryhmä on omassa tiedostossa
-            fm.readFile("file:resources/files/" + allTaskGroups.get(i) + ".txt");
+            System.out.println();
+            fm.readFile("../../files/" + allTaskGroup + ".txt");
             List<String> taskGroupContains = fm.getRows();
             TaskGroup tg = new TaskGroup(taskGroupContains);
-            taskGroupLists.add(tg);
+            this.taskGroupLists.add(tg);
         }
 
     }
@@ -38,10 +45,11 @@ public class TaskManager {
 
         List<Task> taskList = oldTaskGroup.getTaskList();
 
-        for (int i = 0; i < taskList.size(); i++) {
-            newTaskGroup.addNewTask(taskList.get(i).cloneTask());
+        for (Task aTaskList : taskList) {
+            newTaskGroup.addNewTask(aTaskList.cloneTask());
         }
 
+        this.taskGroupLists.add((newTaskGroup));
         return newTaskGroup;
     }
 

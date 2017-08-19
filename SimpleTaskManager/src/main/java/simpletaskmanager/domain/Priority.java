@@ -6,29 +6,20 @@
 package simpletaskmanager.domain;
 
 /**
- *
  * @author taina
  */
 public enum Priority {
- 
-    Blocker("3"),
-    Critical("2"),
-    Major("1"),
-    Neutral("0"),
-    Minor("-1"),
-    Trivial("-2");
 
-    private String koodi;        
+    Blocker(3),
+    Critical(2),
+    Major(1),
+    Neutral(0),
+    Minor(-1),
+    Trivial(-2);
 
-    Priority(String koodi) {
-        this.koodi = koodi;
+    Priority(int numberPrio) {
+        int prio = numberPrio;
     }
-    
-    public int getArvo() {
-        // ei tarvi try lohkoa, koska numerot on tuolla ylhäällä meidän kovakoodaamat
-        return Integer.parseInt(this.koodi);
-    }
-    
-    
-    
+
+
 }

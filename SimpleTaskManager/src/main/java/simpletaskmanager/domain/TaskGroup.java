@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- *
  * @author taina
  */
 public class TaskGroup {
@@ -22,17 +21,33 @@ public class TaskGroup {
 
     public TaskGroup(String title) {
         this.header = title;
-        taskList = new ArrayList<>();
-        isTemplate = false;
-        uniqueID = UUID.randomUUID().toString();
+        this.taskList = new ArrayList<>();
+        this.isTemplate = false;
+        this.uniqueID = UUID.randomUUID().toString();
     }
 
     public TaskGroup(List<String> taskGroupContains) {
-        /**
-         * aineistossa on * 1. rivi uniqueID; header; isTemplate 2. rivi .. n.
-         * rivi on TASK tietoja header; prio; dueDate; status;
+        /*
+         * aineistossa on
+         * 1. rivi
+         ** uniqueID; header; isTemplate
+         */
+
+        String[] firstRow = taskGroupContains.get(0).split(";");
+        this.uniqueID = firstRow[0];
+        this.header = firstRow[1];
+        this.isTemplate = Boolean.valueOf(firstRow[2]);
+
+        this.taskList = new ArrayList<>();
+         /*
+         * 2. rivi .. n.
+         ** rivi on TASK tietoja uniqueID;header; prio; dueDate; status;
          * *
          */
+        for (int i = 1; i < taskGroupContains.size(); i++) {
+            Task t = new Task(taskGroupContains.get(i).split(";"));
+            this.taskList.add(t);
+        }
 
     }
 

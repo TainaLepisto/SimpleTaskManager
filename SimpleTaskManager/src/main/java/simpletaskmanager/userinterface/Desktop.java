@@ -44,11 +44,11 @@ public class Desktop extends Application {
 
         TabPane tabPane = new TabPane();
 
-        /**********************
-         *
-         *    Home TAB
-         *
-         * *******************/
+        /*
+
+         Home TAB
+
+         */
         Tab tabHome = new Tab();
         tabHome.setClosable(false);
 
@@ -56,7 +56,7 @@ public class Desktop extends Application {
         // create a HBox to act like a graphic content for the Tab
         Label label = new Label("Home");
         label.setAlignment(Pos.CENTER_RIGHT);
-        ImageView icon = buildImage("file:resources/icons/home.png");
+        ImageView icon = buildImage("file:../../icons/home.png");
         content.getChildren().addAll(icon, label);
         content.setAlignment(Pos.CENTER);
         tabHome.setGraphic(content); // TODO: tää ei vaan toimi!!
@@ -77,11 +77,11 @@ public class Desktop extends Application {
         tabPane.getTabs().add(tabHome);
 
 
-        /**********************
-         *
-         *    Stats TAB
-         *
-         * *******************/
+        /*
+
+         Stats TAB
+
+        */
         Tab tabStats = new Tab();
         tabStats.setClosable(false);
 
@@ -89,7 +89,7 @@ public class Desktop extends Application {
         // create a HBox to act like a graphic content for the Tab
         Label labelStats = new Label("Stats");
         label.setAlignment(Pos.CENTER_RIGHT);
-        ImageView iconStats = buildImage("file:resources/icons/stats.png");
+        ImageView iconStats = buildImage("file:../../icons/stats.png");
         contentStats.getChildren().addAll(iconStats, labelStats);
         contentStats.setAlignment(Pos.CENTER);
         tabStats.setGraphic(contentStats); // TODO: tää ei vaan toimi!!
@@ -106,14 +106,32 @@ public class Desktop extends Application {
         tabPane.getTabs().add(tabStats);
 
 
-        /**********************
-         *
-         *    All groups for TABs
-         *
-         * *******************/
+        /*
+
+         All groups for TABs
+
+         */
 
         TaskManager tm = new TaskManager();
-        List<TaskGroup> taskGrouList = tm.getTaskGroups();
+        tm.readFile();
+        List<TaskGroup> taskGroupList = tm.getTaskGroups();
+
+        if (!taskGroupList.isEmpty()) {
+            for (TaskGroup aTaskGroupList : taskGroupList) {
+                Tab taskGroup = new Tab();
+
+                BorderPane bpGroup = new BorderPane();
+                Label lbGroup = new Label(aTaskGroupList.getHeader());
+                Button btnGroup = new Button("Button");
+
+                bpStats.setTop(lbGroup);
+                bpStats.setCenter(btnGroup);
+
+                taskGroup.setContent(bpGroup);
+
+                tabPane.getTabs().add(taskGroup);
+            }
+        }
 
 
         /*
@@ -143,6 +161,7 @@ public class Desktop extends Application {
             return imageView;
         } catch (Exception e) {
             // jotain meni pieleen kuvankäsittelyssä. laitetaan vain tyhjä.
+            System.out.println("ikonia ei löytynyt");
             return new ImageView();
         }
     }

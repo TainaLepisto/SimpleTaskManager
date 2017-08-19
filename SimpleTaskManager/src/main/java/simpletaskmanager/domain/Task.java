@@ -6,6 +6,7 @@
 package simpletaskmanager.domain;
 
 import java.util.Objects;
+import java.util.UUID;
 
 /**
  *
@@ -13,6 +14,7 @@ import java.util.Objects;
  */
 public class Task {
 
+    private String uniqueID;
     private String header;
     private Priority prio;
     private String dueDate; // pitää selvitellä miten päivän käyttäminen oikein sujuu parhaiten
@@ -22,6 +24,15 @@ public class Task {
         this.header = title;
         this.prio = prio;
         this.status = WorkFlow.Todo;
+        uniqueID = UUID.randomUUID().toString();
+    }
+
+    public Task(String[] rowInfo) {
+        this.uniqueID=rowInfo[0];
+        this.header=rowInfo[1];
+        //this.prio=new Priority(rowInfo[2]);
+        this.dueDate=rowInfo[3];
+        //this.status= new WorkFlow(rowInfo[4]);
     }
 
     public Task cloneTask() {
@@ -61,38 +72,6 @@ public class Task {
         this.prio = prio;
     }
 
-    @Override
-    public int hashCode() {
-        int hash = 5;
-        hash = 37 * hash + Objects.hashCode(this.header);
-        hash = 37 * hash + Objects.hashCode(this.prio);
-        hash = 37 * hash + Objects.hashCode(this.dueDate);
-        hash = 37 * hash + Objects.hashCode(this.status);
-        return hash;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final Task other = (Task) obj;
-        if (!Objects.equals(this.header, other.header)) {
-            return false;
-        }
-        if (!Objects.equals(this.dueDate, other.dueDate)) {
-            return false;
-        }
-        if (this.prio != other.prio) {
-            return false;
-        }
-        return this.status == other.status;
-    }
-
+    
+    
 }
