@@ -6,40 +6,42 @@
 package simpletaskmanager.logic;
 
 import java.util.List;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 import simpletaskmanager.domain.*;
 
 /**
- *
  * @author taina
  */
 public class TaskManagerTest {
-    
+
     public TaskManagerTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
 
-    
+
     @Test
     public void cloneEmpthyTaskGroupWorks() {
         TaskManager tm = new TaskManager();
@@ -61,7 +63,7 @@ public class TaskManagerTest {
         // tarkastetaan, että kaikki tehtävät kopioituivat
         assertEquals(3, tg2.getTaskList().size());
     }
-        
+
     @Test
     public void cloneTaskGroupWithTasksSetsAllTasksToTODO() {
         TaskManager tm = new TaskManager();
@@ -80,11 +82,10 @@ public class TaskManagerTest {
         task1.setStatus(WorkFlow.Done);
         // kaikki uuden ryhmän tehtävät pitää olla TODO tilassa
         List<Task> taskList = tg2.getTaskList();
-        for(int i = 0; i < taskList.size(); i ++) {
-            assertEquals(WorkFlow.Todo, taskList.get(i).getStatus());
-        }  
+        for (Task aTaskList : taskList) {
+            assertEquals(WorkFlow.Todo, aTaskList.getStatus());
+        }
     }
-    
-    
-    
+
+
 }

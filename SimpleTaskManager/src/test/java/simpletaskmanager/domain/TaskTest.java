@@ -45,12 +45,7 @@ public class TaskTest {
         assertEquals(Priority.Major, newTask.getPrio());
         assertEquals(WorkFlow.Todo, newTask.getStatus()); 
     }
-    
-    @Test
-    public void priorityIsAlsoANumber() {
-        Task newTask = new Task("Otsikko", Priority.Major);
-        assertEquals(1, newTask.getPrio().getArvo()); 
-    }
+
     
     @Test
     public void statusChangeWorks() {
