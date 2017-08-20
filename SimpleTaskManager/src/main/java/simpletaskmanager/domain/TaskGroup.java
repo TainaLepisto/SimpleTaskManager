@@ -11,7 +11,13 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 /**
+ *
+ * Luokka sisaltaa tehtavaryhman.
+ * Ryhma on hallittava kokonaisuus.
+ * Ryhma sisaltaa tehtavia (Task).
+ *
  * @author taina
+ *
  */
 public class TaskGroup {
 

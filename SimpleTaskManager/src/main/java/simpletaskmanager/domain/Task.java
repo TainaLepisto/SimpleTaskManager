@@ -8,8 +8,13 @@ package simpletaskmanager.domain;
 import java.util.Objects;
 import java.util.UUID;
 
+
 /**
+ *
+ * Luokka sisaltaa yksittaisen tehtavan tiedot
+ *
  * @author taina
+ *
  */
 public class Task {
 
@@ -34,6 +39,14 @@ public class Task {
         this.status = WorkFlow.valueOf(rowInfo[4]);
     }
 
+
+    /**
+     * Metodi luo uuden taskin olemassa olevan taskin tiedoilla
+     * taski palaa TODO tilaan ja saa uuden IDn
+     *
+     * @return uusi Task olio
+     *
+     */
     public Task cloneTask() {
         return new Task(this.header, this.prio);
     }

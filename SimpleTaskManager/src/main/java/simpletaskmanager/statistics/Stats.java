@@ -10,11 +10,10 @@ import java.util.stream.Collectors;
 
 /**
  *
- * @author taina
- *
- *
  * HUOMHUOMHUOM!!!
- * taalla on vain esimerkkikoodia - ei viela liity tahan projektiin
+ * taalla on vain esimerkkikoodia - ei viela liity tahan projektiin.
+ *
+ * @author taina
  *
  */
 public class Stats {

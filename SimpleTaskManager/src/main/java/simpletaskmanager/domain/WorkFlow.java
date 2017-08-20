@@ -6,9 +6,13 @@
 package simpletaskmanager.domain;
 
 /**
+ *
+ * Enum tieto tehtavien tiloille (Todo, InProgress,Done)
+ * Jatkokehityksena mahdollisesti naiden hallinnointi oman luokan kautta, jotta
+ * kayttaja voisi itse maaritella tilat.
+ *
  * @author taina
  *
- * tata voisi jatkokehittaa niin, etta kayttaja voisi maaritella eri tilat
  *
  */
 public enum WorkFlow {

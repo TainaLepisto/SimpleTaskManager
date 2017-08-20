@@ -1,90 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java" line="110" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java" line="113" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c6f74d9-115c-4225-a2e1-6cc6b9540ba0" name="Default" comment="iden kautta testi">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/icons/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/icons/diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/icons/hands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/icons/ideas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/icons/love.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/icons/money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/icons/rocket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/icons/stats.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/icons/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/icons/diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/icons/hands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/icons/ideas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/icons/love.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/icons/money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/icons/rocket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/icons/stats.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/files/456.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/simpletaskmanager/StartProgram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/files/456.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/allclasses-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/allclasses-noframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/constant-values.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/deprecated-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/help-doc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-13.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index-files/index-9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/overview-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/overview-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/overview-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/package-list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/StartProgram.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/Priority.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/Task.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/TaskGroup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/TaskGroupTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/TaskTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/WorkFlow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/domain/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/logic/FileManager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/logic/FileManagerTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/logic/TaskManager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/logic/TaskManagerTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/logic/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/logic/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/logic/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/statistics/Stats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/statistics/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/statistics/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/statistics/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/userinterface/Desktop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/userinterface/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/userinterface/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/simpletaskmanager/userinterface/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javadoc/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimpleTaskManager/files/123.txt" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/files/123.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimpleTaskManager/files/SimpleTaskManager.txt" afterPath="$PROJECT_DIR$/out/production/SimpleTaskManager/files/SimpleTaskManager.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Priority.java" afterPath="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Priority.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Task.java" afterPath="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/TaskGroup.java" afterPath="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/TaskGroup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/WorkFlow.java" afterPath="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/WorkFlow.java" />
@@ -92,13 +13,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/TaskManager.java" afterPath="$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/TaskManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simpletaskmanager/statistics/Stats.java" afterPath="$PROJECT_DIR$/src/main/java/simpletaskmanager/statistics/Stats.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java" afterPath="$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/files/123.txt" afterPath="$PROJECT_DIR$/src/main/resources/files/123.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/files/SimpleTaskManager.txt" afterPath="$PROJECT_DIR$/src/main/resources/files/SimpleTaskManager.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/simpletaskmanager/domain/TaskGroupTest.java" afterPath="$PROJECT_DIR$/src/test/java/simpletaskmanager/domain/TaskGroupTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/simpletaskmanager/domain/TaskTest.java" afterPath="$PROJECT_DIR$/src/test/java/simpletaskmanager/domain/TaskTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/FileManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/FileManagerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/TaskManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/TaskManagerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dokumentaatio/tuntikirjanpito.md" afterPath="$PROJECT_DIR$/../dokumentaatio/tuntikirjanpito.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,112 +29,60 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Task.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskManagerTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/TaskManagerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-4">
-                  <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.iml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/main.iml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskManager.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/TaskManager.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="426">
-                  <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-                  <folding>
-                    <element signature="e#1841#1842#0" expanded="true" />
-                    <element signature="e#1883#1884#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="456.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/files/456.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="123.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/files/123.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskGroup.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/TaskGroup.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="960">
-                  <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#2647#0" expanded="true" />
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Enum.java" pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3000">
-                  <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="123.txt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/files/123.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FileManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/FileManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/TaskManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stats.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/statistics/Stats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Desktop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Priority.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Priority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -232,12 +94,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ö</find>
       <find>ä</find>
+      <find>ö</find>
     </findStrings>
     <replaceStrings>
-      <replace>o</replace>
       <replace>a</replace>
+      <replace>o</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -251,30 +113,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/statistics/Stats.java" />
         <option value="$PROJECT_DIR$/src/main/main.iml" />
         <option value="$PROJECT_DIR$/checkstyle.xml" />
         <option value="$PROJECT_DIR$/nbactions.xml" />
         <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/custom.css" />
         <option value="$PROJECT_DIR$/out/production/SimpleTaskManager/files/SimpleTaskManager.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/TaskManager.java" />
         <option value="$PROJECT_DIR$/out/production/SimpleTaskManager/files/123.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/css/custom.css" />
         <option value="$PROJECT_DIR$/out/production/SimpleTaskManager/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Priority.java" />
         <option value="$PROJECT_DIR$/src/main/resources/files/123.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/FileManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/WorkFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/StartProgram.java" />
         <option value="$PROJECT_DIR$/src/test/java/simpletaskmanager/domain/TaskTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/TaskGroup.java" />
         <option value="$PROJECT_DIR$/src/test/java/simpletaskmanager/domain/TaskGroupTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Task.java" />
         <option value="$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/FileManagerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/TaskManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/files/SimpleTaskManager.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/files/456.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/TaskGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/WorkFlow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/FileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/statistics/Stats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Priority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/TaskManager.java" />
       </list>
     </option>
   </component>
@@ -349,6 +211,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,7 +254,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="simpletaskmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleTaskManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleTaskManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simpletaskmanager" type="462c0819:PsiDirectoryNode" />
               <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleTaskManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleTaskManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simpletaskmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="statistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleTaskManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleTaskManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simpletaskmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="userinterface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimpleTaskManager" type="b2602c69:ProjectViewProjectNode" />
@@ -440,9 +332,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -724,6 +613,7 @@
       <workItem from="1503123245005" duration="15338000" />
       <workItem from="1503247679251" duration="1275000" />
       <workItem from="1503249696936" duration="756000" />
+      <workItem from="1503251207049" duration="524000" />
     </task>
     <task id="LOCAL-00001" summary="iden kautta testi">
       <created>1503124887237</created>
@@ -768,38 +658,38 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40945000" />
+    <option name="totallyTimeSpent" value="41469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1241" height="737" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31729323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31729323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34327155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781956" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
@@ -840,7 +730,7 @@
         <state relative-caret-position="720">
           <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
-            <element signature="e#0#2647#0" expanded="true" />
+            <element signature="e#0#2761#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -850,7 +740,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -883,10 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#1841#1842#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +792,7 @@
         <state relative-caret-position="720">
           <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
-            <element signature="e#0#2647#0" expanded="true" />
+            <element signature="e#0#2761#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -912,7 +802,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="75" column="11" lean-forward="true" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -945,10 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#1841#1842#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,7 +854,7 @@
         <state relative-caret-position="495">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2647#0" expanded="true" />
+            <element signature="e#0#2761#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -974,7 +864,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="29" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -995,13 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/statistics/Stats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1073,20 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/WorkFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Priority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/StartProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1106,51 +978,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/TaskGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#2647#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/FileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,26 +1001,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/TaskManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/TaskManager.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        <state relative-caret-position="15">
+          <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/TaskGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="e#1841#1842#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#0#2761#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/123.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,18 +1039,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simpletaskmanager/logic/TaskManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="79" column="37" lean-forward="false" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/WorkFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/123.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/statistics/Stats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/userinterface/Desktop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/domain/Priority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/simpletaskmanager/logic/TaskManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>

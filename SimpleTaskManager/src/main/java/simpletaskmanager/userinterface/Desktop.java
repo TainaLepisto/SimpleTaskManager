@@ -29,6 +29,9 @@ import java.util.List;
 import static javafx.scene.paint.Color.HONEYDEW;
 
 /**
+ *
+ * Luokka kayttoliittyman koodille.
+ *
  * @author taina
  *
  * tama on viela ihan liikaa yhdessa potkossa ja copy-pasteakin on.

@@ -6,7 +6,11 @@
 package simpletaskmanager.domain;
 
 /**
+ *
+ * Enum tieto tehtavien tarkeysasteesta.
+ *
  * @author taina
+ * '
  */
 public enum Priority {
 

@@ -11,7 +11,12 @@ import java.util.List;
 import simpletaskmanager.domain.*;
 
 /**
+ *
+ * Talla hallitaan ryhmia. Kayttoliittyma kayttaa tata luokkaa.
+ * Kaikki logiikka ryhmien kasittelyyn tulee tanne.
+ *
  * @author taina
+ *
  */
 public class TaskManager {
 
