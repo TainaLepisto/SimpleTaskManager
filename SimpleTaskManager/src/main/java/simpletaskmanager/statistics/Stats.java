@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
  *
  *
  * HUOMHUOMHUOM!!!
- * täällä on vain esimerkkikoodia - ei vielä liity tähän projektiin
+ * taalla on vain esimerkkikoodia - ei viela liity tahan projektiin
  *
  */
 public class Stats {

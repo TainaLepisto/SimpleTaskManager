@@ -7,10 +7,9 @@ package simpletaskmanager.domain;
 
 /**
  * @author taina
- * <p>
- * <p>
- * tätä voisi jatkokehittää niin, että käyttäjä voisi määritellä eri tilat
- * -> jätetään seuraavaan vaiheeseen
+ *
+ * tata voisi jatkokehittaa niin, etta kayttaja voisi maaritella eri tilat
+ *
  */
 public enum WorkFlow {
 

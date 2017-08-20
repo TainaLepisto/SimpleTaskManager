@@ -7,6 +7,7 @@ package simpletaskmanager.logic;
 
 
 import java.io.IOException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -31,15 +32,16 @@ public class FileManager {
             this.rowsInFile = Files.lines(Paths.get(fileName)).collect(Collectors.toCollection(ArrayList::new));
             return true;
         } catch (IOException ex) {
-            System.out.println("tiedostoa ei löytynyt");
+            System.out.println("tiedostoa ei loytynyt");
             return false;
-            //throw new RuntimeException("Tiedoston " + fileName + " lukeminen epäonnistui. Virhe: " + ex.getMessage());
+            //throw new RuntimeException("Tiedoston " + fileName + " lukeminen epaonnistui. Virhe: " + ex.getMessage());
         }
     }
 
     public List<String> getRows() {
         return this.rowsInFile;
     }
+
 
 }
 

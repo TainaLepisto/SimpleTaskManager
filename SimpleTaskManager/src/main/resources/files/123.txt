@@ -1,4 +1,4 @@
-123;Ensimmänen testiryhmä;false
-456;tehtava1;1;12122012;2
-789;tehtava2;1;12122012;2
-23;tehtava3;1;12122012;2
+123;Ensimmanen testiryhma;false;love;lorem uprsun lopsun lakhoierna dflkaerianvalerf lafnv aerhlasv alhroia erhfosdlv
+456;tehtava1;Neutral;12122012;Todo
+789;tehtava2;Major;12122012;Done
+23;tehtava3;Trivial;12122012;InProgress

@@ -11,6 +11,9 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 /**
@@ -40,8 +43,15 @@ public class FileManagerTest {
 
 
     @Test
-    public void hello() {
+    public void readingFileIsSuccess() {
+        FileManager fm = new FileManager();
+        assertTrue(fm.readFile(TaskManager.class.getResource("../../files/SimpleTaskManager.txt").getPath()));
+    }
 
+    @Test
+    public void readingFileThatDoesNotExist() {
+        FileManager fm = new FileManager();
+        assertFalse(fm.readFile("../../files/DoesNotExist.txt"));
     }
 
 }

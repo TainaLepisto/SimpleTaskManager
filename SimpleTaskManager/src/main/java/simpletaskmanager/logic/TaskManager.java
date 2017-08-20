@@ -24,18 +24,21 @@ public class TaskManager {
     }
 
     public void readFile() {
-        // tässä tiedostossa on ryhmien ID tunnukset - jokainen omalla rivillä
-        fm.readFile("/files/SimpleTaskManager.txt");
+        // tassa tiedostossa on ryhmien ID tunnukset - jokainen omalla rivilla
+        fm.readFile(TaskManager.class.getResource("../../files/SimpleTaskManager.txt").getPath());
         List<String> allTaskGroups = fm.getRows();
 
-        // luodaan jokaisesta ryhmästä oma olio
+        // luodaan jokaisesta ryhmasta oma olio
         for (String allTaskGroup : allTaskGroups) {
-            // jokainen ryhmä on omassa tiedostossa
-            System.out.println();
-            fm.readFile("../../files/" + allTaskGroup + ".txt");
-            List<String> taskGroupContains = fm.getRows();
-            TaskGroup tg = new TaskGroup(taskGroupContains);
-            this.taskGroupLists.add(tg);
+            // jokainen ryhma on omassa tiedostossa
+            try {
+                //System.out.println("../../files/" + allTaskGroup + ".txt");
+                fm.readFile(TaskManager.class.getResource("../../files/" + allTaskGroup + ".txt").getPath());
+                List<String> taskGroupContains = fm.getRows();
+                TaskGroup tg = new TaskGroup(taskGroupContains);
+                this.taskGroupLists.add(tg);
+            } catch (Exception e) {
+            }
         }
 
     }

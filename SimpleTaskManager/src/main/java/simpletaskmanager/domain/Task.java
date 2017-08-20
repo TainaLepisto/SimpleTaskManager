@@ -9,7 +9,6 @@ import java.util.Objects;
 import java.util.UUID;
 
 /**
- *
  * @author taina
  */
 public class Task {
@@ -17,7 +16,7 @@ public class Task {
     private String uniqueID;
     private String header;
     private Priority prio;
-    private String dueDate; // pitää selvitellä miten päivän käyttäminen oikein sujuu parhaiten
+    private String dueDate; // pitaa selvitella miten paivan kayttaminen oikein sujuu parhaiten
     private WorkFlow status;
 
     public Task(String title, Priority prio) {
@@ -28,11 +27,11 @@ public class Task {
     }
 
     public Task(String[] rowInfo) {
-        this.uniqueID=rowInfo[0];
-        this.header=rowInfo[1];
-        //this.prio=new Priority(rowInfo[2]);
-        this.dueDate=rowInfo[3];
-        //this.status= new WorkFlow(rowInfo[4]);
+        this.uniqueID = rowInfo[0];
+        this.header = rowInfo[1];
+        this.prio = Priority.valueOf(rowInfo[2]);
+        this.dueDate = rowInfo[3];
+        this.status = WorkFlow.valueOf(rowInfo[4]);
     }
 
     public Task cloneTask() {
@@ -72,6 +71,4 @@ public class Task {
         this.prio = prio;
     }
 
-    
-    
 }

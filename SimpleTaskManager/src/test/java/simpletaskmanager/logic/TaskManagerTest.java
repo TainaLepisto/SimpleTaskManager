@@ -58,9 +58,9 @@ public class TaskManagerTest {
         tg.addNewTask(new Task("title1", Priority.Trivial));
         tg.addNewTask(new Task("title2", Priority.Trivial));
         tg.addNewTask(new Task("title3", Priority.Trivial));
-        // kopioidaan ryhmä uudeksi ryhmäksi
+        // kopioidaan ryhma uudeksi ryhmaksi
         TaskGroup tg2 = tm.cloneTaskGroup("new title", tg);
-        // tarkastetaan, että kaikki tehtävät kopioituivat
+        // tarkastetaan, etta kaikki tehtavat kopioituivat
         assertEquals(3, tg2.getTaskList().size());
     }
 
@@ -68,7 +68,7 @@ public class TaskManagerTest {
     public void cloneTaskGroupWithTasksSetsAllTasksToTODO() {
         TaskManager tm = new TaskManager();
         TaskGroup tg = new TaskGroup("title");
-        // luodaan ryhmälle kolme tehtävää, joista osa merkitään eri tilaan kuin TODO
+        // luodaan ryhmalle kolme tehtavaa, joista osa merkitaan eri tilaan kuin TODO
         Task task1 = new Task("Otsikko", Priority.Major);
         tg.addNewTask(task1);
         task1.setStatus(WorkFlow.InProgress);
@@ -76,16 +76,26 @@ public class TaskManagerTest {
         task2.setStatus(WorkFlow.InProgress);
         tg.addNewTask(task2);
         tg.addNewTask(new Task("title", Priority.Trivial));
-        // kopioidaan ryhmä uudeksi ryhmäksi
+        // kopioidaan ryhma uudeksi ryhmaksi
         TaskGroup tg2 = tm.cloneTaskGroup("new title", tg);
-        // muutetaan alkuperäisen tehtävän tilaa
+        // muutetaan alkuperaisen tehtavan tilaa
         task1.setStatus(WorkFlow.Done);
-        // kaikki uuden ryhmän tehtävät pitää olla TODO tilassa
+        // kaikki uuden ryhman tehtavat pitaa olla TODO tilassa
         List<Task> taskList = tg2.getTaskList();
         for (Task aTaskList : taskList) {
             assertEquals(WorkFlow.Todo, aTaskList.getStatus());
         }
     }
+
+
+    @Test
+    public void readGroupInfoFromFile() {
+        TaskManager tm = new TaskManager();
+        tm.readFile();
+        List<TaskGroup> taskGroupList = tm.getTaskGroups();
+        assertEquals(2, taskGroupList.size());
+    }
+
 
 
 }

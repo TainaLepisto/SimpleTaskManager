@@ -1,0 +1,4 @@
+123;Toienen testiryhma;false;money;lorem uprsun lopsun lakhoierna dflkaerianvalerf lafnv aerhlasv alhroia erhfosdlv
+456;tehtava1;Neutral;12122012;Todo
+789;tehtava2;Major;12122012;Done
+23;tehtava3;Trivial;12122012;InProgress
