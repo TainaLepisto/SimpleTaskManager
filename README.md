@@ -12,9 +12,9 @@ Personal Kanban eli omaan käyttöön simppeli tehtävien hallintasovellus. Teht
 
 ## Kansiorakenne:
 - Harjoitustyösi juurikansio (Repositoriokansio)
-    - README.md
+    - README.md (tämä tiedosto)
     - [ohjelmasinimitähän/ (Netbeansin projektihakemisto)](/SimpleTaskManager)
-    - javadoc/ (Generoitu dokumentaatio, vaaditaan vasta loppupalautuksessa)
+    - [javadoc/](https://htmlpreview.github.io/?https://github.com/TainaLepisto/SimpleTaskManager/blob/master/javadoc/index.html) (Generoitu dokumentaatio, vaaditaan vasta loppupalautuksessa)
     - ### dokumentaatio/
         - [pit-raportti/](https://htmlpreview.github.io/?https://github.com/TainaLepisto/SimpleTaskManager/blob/master/dokumentaatio/pit/index.html)
         - [checkstyle-raportti/](https://htmlpreview.github.io/?https://github.com/TainaLepisto/SimpleTaskManager/blob/master/dokumentaatio/checkstyle/checkstyle.html)
