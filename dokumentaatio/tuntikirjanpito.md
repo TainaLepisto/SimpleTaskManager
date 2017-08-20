@@ -16,6 +16,8 @@ Päivä | Tunnit | Kuvaus | Kumulatiivinen
 17.08.2017 | 2h | [toisen tekijän koodien katselmointi](https://github.com/KeremAtak/Labraharava/issues/2) | 42h
 18.08.2017 | 5h | koodausta (tiedostojen käsittely) | 47h
 19.08.2017 | 6h | koodausta (kälin ulkosasu, iconit, pientä viilausta sinne tänne) | 53h
+20.08.2017 | 4h | testien lisäystä, pit, checkstyle, javadoc, yms | 57h
+
 
 
  
