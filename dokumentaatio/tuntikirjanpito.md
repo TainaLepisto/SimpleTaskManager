@@ -17,6 +17,8 @@ Päivä | Tunnit | Kuvaus | Kumulatiivinen
 18.08.2017 | 5h | koodausta (tiedostojen käsittely) | 47h
 19.08.2017 | 6h | koodausta (kälin ulkosasu, iconit, pientä viilausta sinne tänne) | 53h
 20.08.2017 | 4h | testien lisäystä, pit, checkstyle, javadoc, yms | 57h
+26.08.2017 | 6h | kälin koodausta | 63h
+27.08.2017 | 4h | testejä lisää, kälin korjausta, pit, checkstyle, javadoc | 67h
 
 
 

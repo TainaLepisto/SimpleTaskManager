@@ -42,9 +42,17 @@ public class TaskGroupTest {
 
 
     @Test
-    public void createTaskGroupWorks() {
+    public void createTaskGroupDefaultWorks() {
         TaskGroup newTaskGroup = new TaskGroup("Otsikko");
         assertEquals("Otsikko", newTaskGroup.getHeader());
+        assertEquals(0, newTaskGroup.getTaskList().size());
+    }
+
+    @Test
+    public void createTaskGroupWorks() {
+        TaskGroup newTaskGroup = new TaskGroup("Otsikko", false, "hands", "kuvaus");
+        assertEquals("Otsikko", newTaskGroup.getHeader());
+        assertEquals("hands", newTaskGroup.getIconName());
         assertEquals(0, newTaskGroup.getTaskList().size());
     }
 
@@ -55,13 +63,22 @@ public class TaskGroupTest {
         assertEquals(1, newTaskGroup.getTaskList().size());
     }
 
-    // tama ei toimi talla hetkella
-    //@Test
+    @Test
     public void addingSameTaskTwiceDoesNotGrowList() {
         TaskGroup newTaskGroup = new TaskGroup("Otsikko");
-        newTaskGroup.addNewTask(new Task("title", Priority.Trivial));
-        newTaskGroup.addNewTask(new Task("title", Priority.Trivial));
+        Task newTask = new Task("title", Priority.Trivial);
+        assertTrue(newTaskGroup.addNewTask(newTask));
+        assertFalse(newTaskGroup.addNewTask(newTask));
         assertEquals(1, newTaskGroup.getTaskList().size());
+    }
+
+    @Test
+    public void getTaskListByStatusWorks() {
+        TaskGroup newTaskGroup = new TaskGroup("Otsikko");
+        Task newTask = new Task("title", Priority.Trivial);
+        newTaskGroup.addNewTask(newTask);
+        assertEquals(1, newTaskGroup.getTaskListByStatus(WorkFlow.Todo).size());
+        assertEquals(0, newTaskGroup.getTaskListByStatus(WorkFlow.InProgress).size());
     }
 
     // Gettereita ja settereita ei tarvitse testata, jos ne eivat tee mitaan monimutkaista
@@ -72,10 +89,20 @@ public class TaskGroupTest {
 
         newTaskGroup.setHeader("Toinen");
         assertEquals("Toinen", newTaskGroup.getHeader());
+
         newTaskGroup.setTemplate(true);
         assertTrue(newTaskGroup.getTemplate());
+
         assertEquals("default", newTaskGroup.getIconName());
+
         assertEquals("lorem ipsun.. ", newTaskGroup.getDesc());
+
+        assertEquals(0, newTaskGroup.getTaskList().size());
+        Task newTask = new Task("title", Priority.Trivial);
+        List<Task> taskList = new ArrayList<>();
+        taskList.add(newTask);
+        newTaskGroup.setTaskList(taskList);
+        assertEquals(1, newTaskGroup.getTaskList().size());
 
     }
 

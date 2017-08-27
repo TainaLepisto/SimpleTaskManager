@@ -10,11 +10,9 @@ import java.util.UUID;
 
 
 /**
- *
- * Luokka sisaltaa yksittaisen tehtavan tiedot
+ * Luokka sisaltaa yksittaisen tehtavan tiedot.
  *
  * @author taina
- *
  */
 public class Task {
 
@@ -24,6 +22,12 @@ public class Task {
     private String dueDate; // pitaa selvitella miten paivan kayttaminen oikein sujuu parhaiten
     private WorkFlow status;
 
+    /**
+     * Konstruktori uuden luomiseen.
+     *
+     * @param title tehtavan otsikko
+     * @param prio  tehtavan tarkeys
+     */
     public Task(String title, Priority prio) {
         this.header = title;
         this.prio = prio;
@@ -31,6 +35,16 @@ public class Task {
         uniqueID = UUID.randomUUID().toString();
     }
 
+    /**
+     * Konstruktori kun tiedot luetaan tallesta.
+     *
+     * @param rowInfo taulukko tehtavan tiedoista
+     *                0=ID
+     *                1=otsikko
+     *                2=priority /tarkeys
+     *                3=deadline
+     *                4=status/workflow state
+     */
     public Task(String[] rowInfo) {
         this.uniqueID = rowInfo[0];
         this.header = rowInfo[1];
@@ -41,11 +55,10 @@ public class Task {
 
 
     /**
-     * Metodi luo uuden taskin olemassa olevan taskin tiedoilla
-     * taski palaa TODO tilaan ja saa uuden IDn
+     * Metodi luo uuden taskin olemassa olevan taskin tiedoilla.
+     * taski palaa TODO tilaan ja saa uuden IDn.
      *
      * @return uusi Task olio
-     *
      */
     public Task cloneTask() {
         return new Task(this.header, this.prio);
@@ -84,4 +97,22 @@ public class Task {
         this.prio = prio;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
+        Task task = (Task) o;
+
+        return uniqueID.equals(task.uniqueID);
+    }
+
+    @Override
+    public int hashCode() {
+        return uniqueID.hashCode();
+    }
 }

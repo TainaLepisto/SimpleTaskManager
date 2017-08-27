@@ -11,13 +11,11 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 /**
- *
  * Luokka sisaltaa tehtavaryhman.
  * Ryhma on hallittava kokonaisuus.
  * Ryhma sisaltaa tehtavia (Task).
  *
  * @author taina
- *
  */
 public class TaskGroup {
 
@@ -28,6 +26,11 @@ public class TaskGroup {
     private List<Task> taskList;
     private String desc;
 
+    /**
+     * Konstruktori uuden luomiseen.
+     *
+     * @param title ryhman otsikko
+     */
     public TaskGroup(String title) {
         this.header = title;
         this.taskList = new ArrayList<>();
@@ -37,6 +40,17 @@ public class TaskGroup {
         this.desc = "lorem ipsun.. ";
     }
 
+    /**
+     * Konstruktori kun tiedot luetaan tallesta.
+     *
+     * @param taskGroupContains tallesta luettut tiedot
+     *                          * aineistossa on
+     *                          1. rivi ryhman tiedot
+     *                          * uniqueID; header; isTemplate; iconName; desc
+     *                          <p>
+     *                          * 2. rivi .. n. ryhmaan kuuluvien tehtavien tiedot
+     *                          uniqueID;header; prio; dueDate; status;
+     */
     public TaskGroup(List<String> taskGroupContains) {
         /*
          * aineistossa on
@@ -61,9 +75,31 @@ public class TaskGroup {
             Task t = new Task(taskGroupContains.get(i).split(";"));
             this.taskList.add(t);
         }
-
     }
 
+    /**
+     * Konstruktori uuden luomiseen.
+     *
+     * @param header     tehtavan otsikko
+     * @param isTemplate tehtavan tarkeys
+     * @param iconName   ryhman iconin nimi
+     * @param desc       ryhman kuvaus
+     */
+    public TaskGroup(String header, boolean isTemplate, String iconName, String desc) {
+        this.header = header;
+        this.taskList = new ArrayList<>();
+        this.isTemplate = isTemplate;
+        this.iconName = iconName;
+        this.uniqueID = UUID.randomUUID().toString();
+        this.desc = desc;
+    }
+
+    /**
+     * Metodilla listaan ryhmaan uusi taski.
+     *
+     * @param newTask tehtava, joka lisataan listalle
+     * @return boolean arvo onnistumisesta
+     */
     public boolean addNewTask(Task newTask) {
         if (taskList.contains(newTask)) {
             return false;
@@ -72,10 +108,19 @@ public class TaskGroup {
         return true;
     }
 
+    /**
+     * Metodi, jolla haetaan ryhman tietyssa tilassa olevat tehtavat.
+     *
+     * @param status minka tilan tehtavat haetaan
+     * @return lista tehtavista
+     */
     public List<Task> getTaskListByStatus(WorkFlow status) {
+        if (this.taskList == null) {
+            return new ArrayList<>();
+        }
         return this.taskList.stream()
                 .filter(task -> task.getStatus() == status)
-                .sorted()
+                //.sorted()
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 

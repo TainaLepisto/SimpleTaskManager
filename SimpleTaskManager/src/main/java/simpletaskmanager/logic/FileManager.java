@@ -15,24 +15,31 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- *
  * Luokka tiedostojen kasittelyyn. Kaynnistaessa sovellusta luetaan tiedot.
  * Suljettaessa taas kirjoitetaan ne muistiin. (todellisuudessa pitaisi varmasti kirjoittaa usemminkin,
  * mutta nyt mennaan nain, jotta tasta ei tule vain tiedoston kasittelya.).
  *
  * @author taina
- *
  */
 public class FileManager {
 
 
     private List<String> rowsInFile;
 
+    /**
+     * konstruktori.
+     */
     public FileManager() {
         this.rowsInFile = new ArrayList<>();
 
     }
 
+    /**
+     * tietojen lukeminen tiedostosta.
+     *
+     * @param fileName luettava tiedosto.
+     * @return boolean lukemisen onnistumisesta.
+     */
     public boolean readFile(String fileName) {
         try {
             this.rowsInFile = Files.lines(Paths.get(fileName)).collect(Collectors.toCollection(ArrayList::new));

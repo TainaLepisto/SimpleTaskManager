@@ -17,6 +17,10 @@
     -fx-spacing: 3px;
 }
 
+#rowHeader {
+    -fx-font-weight: bold;
+}
+
 .button {
     -fx-text-fill: white;
     -fx-font-family: "Arial Narrow";
