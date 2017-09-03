@@ -61,6 +61,8 @@ public class TaskManager {
      */
     public TaskGroup cloneTaskGroup(String newTitle, TaskGroup oldTaskGroup) {
         TaskGroup newTaskGroup = new TaskGroup(newTitle);
+        newTaskGroup.setDesc(oldTaskGroup.getDesc());
+        newTaskGroup.setIconName(oldTaskGroup.getIconName());
 
         List<Task> taskList = oldTaskGroup.getTaskList();
 
@@ -85,4 +87,6 @@ public class TaskManager {
         this.taskGroupLists.add((newTaskGroup));
 
     }
+
+
 }

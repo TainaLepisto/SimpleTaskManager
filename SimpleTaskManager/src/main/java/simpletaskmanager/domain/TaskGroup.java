@@ -22,9 +22,12 @@ public class TaskGroup {
     private String uniqueID;
     private String header;
     private Boolean isTemplate;
+    // luovuin taman isTemplate kaytosta ja paadyin lopulta siihen, etta jokaisen ryhman voi kopioida, eika vain tiettyja.
+    // jatin taman kuitenkin koodin, jos jatkokehityksessa se ottaisiinkin takaisin kayttoon.
     private String iconName;
     private List<Task> taskList;
     private String desc;
+
 
     /**
      * Konstruktori uuden luomiseen.
@@ -114,13 +117,13 @@ public class TaskGroup {
      * @param status minka tilan tehtavat haetaan
      * @return lista tehtavista
      */
-    public List<Task> getTaskListByStatus(WorkFlow status) {
+    public List<Task> getTaskListOrderedByPrio(WorkFlow status) {
         if (this.taskList == null) {
             return new ArrayList<>();
         }
         return this.taskList.stream()
                 .filter(task -> task.getStatus() == status)
-                //.sorted()
+                .sorted((t1, t2) -> t2.getPrioInt() - t1.getPrioInt())
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 
@@ -136,8 +139,25 @@ public class TaskGroup {
         return taskList;
     }
 
-    public void setHeader(String header) {
-        this.header = header;
+
+    public String getIconName() {
+        return iconName;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public String getId() {
+        return uniqueID;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public void setIconName(String iconName) {
+        this.iconName = iconName;
     }
 
     public void setTaskList(List<Task> taskList) {
@@ -148,11 +168,26 @@ public class TaskGroup {
         isTemplate = template;
     }
 
-    public String getIconName() {
-        return iconName;
+    public void setHeader(String header) {
+        this.header = header;
     }
 
-    public String getDesc() {
-        return desc;
+
+    /**
+     * getteri, jolla voi rajata vain tietyn statuksen ja prioriteetin tehtavat mukaan tulosjoukkoon.
+     *
+     * @param status minka statuksen mukaiset tehtavat haetaan
+     * @param prio   minka prioriteetin mukaiset tehtavat haetaan.
+     * @return palautetaan lista tehtavista, jotka tayttavat annetut ehdot.
+     */
+    public List<Task> getTaskList(WorkFlow status, Priority prio) {
+        if (this.taskList == null) {
+            return new ArrayList<>();
+        }
+        return this.taskList.stream()
+                .filter(task -> task.getStatus() == status && task.getPrio() == prio)
+                .collect(Collectors.toCollection(ArrayList::new));
     }
+
+
 }

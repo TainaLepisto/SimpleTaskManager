@@ -1,6 +1,6 @@
 123;Ensimmanen testiryhma;false;love;lorem uprsun lopsun lakhoierna dflkaerianvalerf lafnv aerhlasv alhroia erhfosdlv
 456;tehtava1a;Neutral;12122012;Todo
-4567;tehtava1b;Neutral;12122012;Todo
-45678;tehtava1c;Neutral;12122012;Todo
+4567;tehtava1b;Major;12122012;Todo
+45678;tehtava1c;Trivial;12122012;Todo
 789;tehtava2;Major;12122012;Done
 23;tehtava3;Trivial;12122012;InProgress

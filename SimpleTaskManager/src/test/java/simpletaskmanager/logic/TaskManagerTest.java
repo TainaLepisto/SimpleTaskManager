@@ -49,6 +49,9 @@ public class TaskManagerTest {
         TaskGroup tg2 = tm.cloneTaskGroup("new title", tg);
         assertEquals(0, tg2.getTaskList().size());
         assertEquals("new title", tg2.getHeader());
+        assertEquals(tg.getDesc(), tg2.getDesc());
+        assertEquals(tg.getIconName(), tg2.getIconName());
+
     }
 
     @Test
@@ -96,6 +99,13 @@ public class TaskManagerTest {
         assertEquals(2, taskGroupList.size());
     }
 
+    @Test
+    public void addNewTaskGroupWorks() {
+        TaskManager tm = new TaskManager();
+        TaskGroup tg = new TaskGroup("title");
+        tm.addNewTaskGroup(tg);
+        assertEquals(1, tm.getTaskGroups().size());
+    }
 
 
 }

@@ -19,7 +19,10 @@ Päivä | Tunnit | Kuvaus | Kumulatiivinen
 20.08.2017 | 4h | testien lisäystä, pit, checkstyle, javadoc, yms | 57h
 26.08.2017 | 6h | kälin koodausta | 63h
 27.08.2017 | 4h | testejä lisää, kälin korjausta, pit, checkstyle, javadoc | 67h
-
+29.08.2017 | 3h | [toisen tekijän koodien katselmointi](https://github.com/xxx) | 70h
+01.09.2017 | 5h | käyttöliittymän koodausta | 75h
+02.09.2017 | 4h | statistiikan koodausta | 79h 
+03.09.2017 | 3h | palautuksen dokumentit | 82h 
 
 
  

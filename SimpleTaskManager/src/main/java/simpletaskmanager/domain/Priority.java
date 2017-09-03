@@ -6,7 +6,6 @@
 package simpletaskmanager.domain;
 
 /**
- *
  * Enum tieto tehtavien tarkeysasteesta.
  *
  * @author taina
@@ -21,9 +20,13 @@ public enum Priority {
     Minor(-1),
     Trivial(-2);
 
+    private int prio;
+
     Priority(int numberPrio) {
-        int prio = numberPrio;
+        this.prio = numberPrio;
     }
 
-
+    public int getArvo() {
+        return this.prio;
+    }
 }

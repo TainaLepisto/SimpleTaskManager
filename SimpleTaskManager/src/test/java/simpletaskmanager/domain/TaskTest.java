@@ -11,29 +11,29 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 /**
- *
  * @author taina
  */
 public class TaskTest {
-    
+
     public TaskTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
     }
-    
+
     @After
     public void tearDown() {
     }
@@ -43,17 +43,17 @@ public class TaskTest {
         Task newTask = new Task("Otsikko", Priority.Major);
         assertEquals("Otsikko", newTask.getHeader());
         assertEquals(Priority.Major, newTask.getPrio());
-        assertEquals(WorkFlow.Todo, newTask.getStatus()); 
+        assertEquals(WorkFlow.Todo, newTask.getStatus());
     }
 
-    
+
     @Test
     public void statusChangeWorks() {
         Task task1 = new Task("Otsikko", Priority.Major);
         task1.setStatus(WorkFlow.Done);
         assertEquals(WorkFlow.Done, task1.getStatus());
     }
-    
+
     @Test
     public void cloneWorks() {
         Task task1 = new Task("Otsikko", Priority.Major);
@@ -76,6 +76,8 @@ public class TaskTest {
         assertEquals("12122012", task1.getDueDate());
         assertEquals("Toinen", task1.getHeader());
         assertEquals(Priority.Trivial, task1.getPrio());
+        assertEquals(-2, task1.getPrioInt());
+
     }
 
 

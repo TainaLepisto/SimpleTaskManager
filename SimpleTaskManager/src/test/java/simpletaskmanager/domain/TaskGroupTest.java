@@ -75,10 +75,31 @@ public class TaskGroupTest {
     @Test
     public void getTaskListByStatusWorks() {
         TaskGroup newTaskGroup = new TaskGroup("Otsikko");
+        assertEquals(0, newTaskGroup.getTaskListOrderedByPrio(WorkFlow.Todo).size());
+
         Task newTask = new Task("title", Priority.Trivial);
         newTaskGroup.addNewTask(newTask);
-        assertEquals(1, newTaskGroup.getTaskListByStatus(WorkFlow.Todo).size());
-        assertEquals(0, newTaskGroup.getTaskListByStatus(WorkFlow.InProgress).size());
+        assertEquals(1, newTaskGroup.getTaskListOrderedByPrio(WorkFlow.Todo).size());
+        assertEquals(0, newTaskGroup.getTaskListOrderedByPrio(WorkFlow.InProgress).size());
+
+        Task newTask2 = new Task("title", Priority.Major);
+        newTaskGroup.addNewTask(newTask2);
+        assertEquals(newTask2, newTaskGroup.getTaskListOrderedByPrio(WorkFlow.Todo).get(0));
+
+    }
+
+    @Test
+    public void getTaskListByStatusAndPrioWorks() {
+        TaskGroup newTaskGroup = new TaskGroup("Otsikko");
+        assertEquals(0, newTaskGroup.getTaskListOrderedByPrio(WorkFlow.Todo).size());
+
+        Task newTask = new Task("title", Priority.Trivial);
+        newTaskGroup.addNewTask(newTask);
+        Task newTask2 = new Task("title", Priority.Major);
+        newTaskGroup.addNewTask(newTask2);
+        assertEquals(1, newTaskGroup.getTaskList(WorkFlow.Todo, Priority.Major).size());
+        assertEquals(0, newTaskGroup.getTaskList(WorkFlow.InProgress, Priority.Major).size());
+
     }
 
     // Gettereita ja settereita ei tarvitse testata, jos ne eivat tee mitaan monimutkaista
@@ -119,6 +140,8 @@ public class TaskGroupTest {
         assertTrue(newTaskGroup.getTemplate());
         assertEquals("home", newTaskGroup.getIconName());
         assertEquals("Kuvaus", newTaskGroup.getDesc());
+        assertEquals("1", newTaskGroup.getId());
+
 
         List<Task> taskList = newTaskGroup.getTaskList();
         assertEquals(1, taskList.size());

@@ -5,7 +5,6 @@
  */
 package simpletaskmanager.domain;
 
-import java.util.Objects;
 import java.util.UUID;
 
 
@@ -20,6 +19,7 @@ public class Task {
     private String header;
     private Priority prio;
     private String dueDate; // pitaa selvitella miten paivan kayttaminen oikein sujuu parhaiten
+    // taman selvittelyyn ei oikein jaanyt aikaa, joten taman kasittely jai kokonaan.
     private WorkFlow status;
 
     /**
@@ -87,6 +87,10 @@ public class Task {
 
     public Priority getPrio() {
         return prio;
+    }
+
+    public int getPrioInt() {
+        return prio.getArvo();
     }
 
     public void setHeader(String header) {
